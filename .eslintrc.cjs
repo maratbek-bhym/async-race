@@ -11,12 +11,7 @@ module.exports = {
     tsconfigRootDir: __dirname,
     sourceType: 'module',
   },
-  extends: [
-    'airbnb',
-    'airbnb-typescript',
-    'airbnb/hooks',
-    'prettier',
-  ],
+  extends: ['airbnb', 'airbnb-typescript', 'airbnb/hooks', 'prettier'],
   plugins: ['@typescript-eslint'],
   settings: {
     react: {
